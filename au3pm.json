@@ -1,0 +1,11 @@
+{
+    "name": "string",
+    "description": "AutoIt3 string helper library",
+    "main": "main.au3",
+    "scripts": {},
+    "dependencies": {},
+    "devDependencies": {
+        "au3unit": "*"
+    },
+    "bin": {}
+}
