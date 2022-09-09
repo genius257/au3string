@@ -6,6 +6,7 @@
 
 #include "src/at.au3"
 #include "src/charAt.au3"
+#include "src/charCodeAt.au3"
 #include "src/concat.au3"
 #include "src/endsWith.au3"
 #include "src/includes.au3"
