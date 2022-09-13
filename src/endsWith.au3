@@ -3,7 +3,7 @@
 #include "slice.au3"
 
 Func _String_endsWith($sString,  $sSearchString, $iEndPosition = Default)
-    If $iEndPosition = Default Then $iEndPosition = _String_length($sString) + 1
+    If $iEndPosition = Default Then $iEndPosition = _String_length($sString)
     Local $iSearchStringLength = _String_length($sSearchString)
     Return _String_slice($sString, $iEndPosition - $iSearchStringLength, $iSearchStringLength) == $sSearchString
 EndFunc
